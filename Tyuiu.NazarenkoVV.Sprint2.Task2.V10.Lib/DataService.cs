@@ -14,7 +14,7 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task2.V10.Lib
         {
             bool res;
 
-            if ((x >= 3) && (x <= 5) && (y >= 3) && (y <= 14))
+            if ((x >= 5) && (x <= 8) && (y >= 5) && (y <= 9))
             {
                 res = true;
             }
