@@ -10,7 +10,7 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9.Test
                 DataService ds = new DataService();
                 int n = 08;
                 int m = 09;
-                string wait = "10.08";
+                string wait = "09.09";
                 var res = ds.FindDateOfNextDay(m, n);
                 Assert.AreEqual(wait, res);
 
