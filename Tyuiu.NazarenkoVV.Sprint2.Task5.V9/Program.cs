@@ -32,32 +32,32 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9
                 Console.WriteLine("***************************************************************************");
                 Console.WriteLine("Введите порядковый номер месяца");
 
-                int n = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Введите число");
                 int m = Convert.ToInt32(Console.ReadLine());
-                if ((n > 12) || (m > 31))
+                Console.WriteLine("Введите число");
+                int n = Convert.ToInt32(Console.ReadLine());
+                if ((m > 12) || (n > 31))
                 {
                     Console.WriteLine("Введены неправильные данные");
                 }
                 else
                 {
-                    if ((n == 2) && (m > 28))
+                    if ((m == 2) && (n > 28))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((n == 4) && (m > 30))
+                    else if ((m == 4) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((n == 6) && (m > 30))
+                    else if ((m == 6) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((n == 9) && (m > 30))
+                    else if ((m == 9) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((n == 11) && (m > 30))
+                    else if ((m == 11) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }

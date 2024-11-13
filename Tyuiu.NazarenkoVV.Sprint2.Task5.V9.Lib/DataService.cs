@@ -13,46 +13,46 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9.Lib
             public string FindDateOfNextDay(int m, int n)
             {
                 {
-                    if (m == 31)
+                    if (n == 31)
                     {
-                        n += 1;
-                        m -= 30;
+                        m += 1;
+                        n -= 30;
                     }
-                    else if (m < 31)
+                    else if (n < 31)
                     {
-                        if ((n == 2) && (m == 28))
+                        if ((m == 2) && (n == 28))
                         {
-                            n += 1;
-                            m -= 27;
+                            m += 1;
+                            n -= 27;
                         }
-                        else if ((n == 4) && (m == 30))
+                        else if ((m == 4) && (n == 30))
                         {
-                            n += 1;
-                            m -= 29;
+                            m += 1;
+                            n -= 29;
                         }
-                        else if ((n == 6) && (m == 30))
+                        else if ((m == 6) && (n == 30))
                         {
-                            n += 1;
-                            m -= 29;
+                            m += 1;
+                            n -= 29;
                         }
-                        else if ((n == 9) && (m == 30))
+                        else if ((m == 9) && (n == 30))
                         {
-                            n += 1;
-                            m -= 29;
+                            m += 1;
+                            n -= 29;
                         }
-                        else if ((n == 11) && (m == 30))
+                        else if ((m == 11) && (n == 30))
                         {
-                            n += 1;
-                            m -= 29;
+                            m += 1;
+                            n -= 29;
                         }
                         else
                         {
-                            m += 1;
+                            n += 1;
                         }
 
                     }
                     string res;
-                    switch (n)
+                    switch (m)
                     {
                         case 1:
                             res = "01";
@@ -91,10 +91,10 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9.Lib
                             res = "12";
                             break;
                         default:
-                            throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {n}");
+                            throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {m}");
                     }
                     string res2;
-                    res2 = m + "." + res;
+                    res2 = n + "." + res;
                     return res2;
 
                 }
