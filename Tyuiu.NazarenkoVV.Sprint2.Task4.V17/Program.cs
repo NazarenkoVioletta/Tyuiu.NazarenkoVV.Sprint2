@@ -13,6 +13,19 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task4.V17
         static void Main(string[] args)
         {
             DataService ds = new DataService();
+            Console.Title = "Спринт #2| Выполнил:  Назаренко В.В.| ";
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* Спринт #2                                                               *");
+            Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #17                                                              *");
+            Console.WriteLine("* Выполнил: |   Назаренко В. В.                                           *");
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
+            Console.WriteLine("* вычисляет, и печатает результат на экране                               *");
+            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("***************************************************************************");
             Console.WriteLine("********************************************************************************");
             Console.WriteLine("* Исходные данные                                                              *");
             Console.WriteLine("********************************************************************************");

@@ -41,19 +41,19 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9
                 }
                 else
                 {
-                    if ((m == 2) && (n > 28))
+                    if ((m == 02) && (n > 28))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((m == 4) && (n > 30))
+                    else if ((m == 04) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((m == 6) && (n > 30))
+                    else if ((m == 06) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }
-                    else if ((m == 9) && (n > 30))
+                    else if ((m == 09) && (n > 30))
                     {
                         Console.WriteLine("Такого дня не существует");
                     }

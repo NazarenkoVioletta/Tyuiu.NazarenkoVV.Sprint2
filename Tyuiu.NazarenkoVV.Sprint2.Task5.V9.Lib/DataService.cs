@@ -94,7 +94,7 @@ namespace Tyuiu.NazarenkoVV.Sprint2.Task5.V9.Lib
                         throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {m}");
                 }
                 string res2;
-                res2 = n + "." + res;
+                res2 = "0"+ n + "." + res;
                 return res2;
 
             }
